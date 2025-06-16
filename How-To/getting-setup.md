@@ -39,7 +39,7 @@ This will give you temporary admin rights, however you can run this policy has m
 At CF, our IDE (Integrated Development Environment) of choice is [VSCODE](https://code.visualstudio.com/).
 You can find the download link [here](https://code.visualstudio.com/download#)
 
-A few extensions we're obsessed with are:
+Some extensions we're obsessed with are:
 - Data Wrangler
 - Jupyter
 - Rainbow CSV
@@ -48,7 +48,7 @@ A few extensions we're obsessed with are:
 
 ## 3: Install Brew
 
-Homebrew is a packaga manager for MacOS and Linux. It installs the stuff you need that Apple (or your Linux system) didn’t.
+Homebrew is a package manager for MacOS and Linux. It installs the stuff you need that Apple (or your Linux system) didn’t.
 
 You can install homebrew by downloading the `.pkg` file from [here](https://brew.sh/) or by pasting this command into a MAC terminal:
 
