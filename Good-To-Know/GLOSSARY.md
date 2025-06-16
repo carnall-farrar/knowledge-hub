@@ -145,6 +145,7 @@
 * **PHE**, Public Health England​
 * **QIPP**, Quality, Innovation, Productivity and Prevention​
 * **CAMHS**, Child and Adolescent Mental Health services
+* **VCR**, Vaccination Coverage Rate
 
 ## External Resources
 - [The King's Fund - Health and Care Defined Jargon Buster](https://www.kingsfund.org.uk/insight-and-analysis/articles/health-and-care-defined-jargon-buster)
