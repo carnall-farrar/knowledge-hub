@@ -8,9 +8,13 @@ To ensure seamless collaboration throughout the project development process, we 
 
 1. On GitHub, navigate to the repository of choice.
 2. Above the list of files, click `<> Code`.
-![gh-code](../static/gh-code.png)
+
+<img src="../static/gh-code.png" alt="gh-code" width="400" height="auto">
+
 3. Clone the repository using HTTPS by clicking the copy icon under "HTTPS".
-![gh-https-clone](../static/gh-https-clone.png)
+
+<img src="../static/gh-https-clone.png" alt="gh-https-clone" width="400" height="auto">
+
 4. In your desired root directory, clone the repository using the copied URL:
 ```bash
 git clone <URL>
@@ -45,7 +49,7 @@ No commits are to be made directly to either of these branches. Branch protectio
 * Naming Convention: Use clear names like feature/model-x-v2, bugfix/data-leakage, or experiment/ab-test-v3.
 * Merge Rule: Merge into dev using "Squash and merge" to keep commit history clean.
 
-### Workflow Summary
+### Workflow Summary
 
 1. Create a Working Branch
 
@@ -72,7 +76,7 @@ git checkout -b feature/your-branch-name
 * Once `dev` is stable and ready, open a PR from `dev` to `main`.
 * Use "Create a merge commit" to preserve commit history and make it easier to trace past releases.
 
-### Best Practices
+### Best Practices
 
 * Pull latest changes to `dev` before creating a new working branch.
 * Keep PRs small and focused.

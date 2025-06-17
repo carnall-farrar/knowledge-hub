@@ -99,6 +99,7 @@ Configure git globally as such:
 ```bash
 git config --global user.name "<Your Name>"
 git config --global user.email "<Your Email>"
+git config --global init.defaultBranch main
 ```
 
 When you interact with a Git repository for the first time (e.g., cloning, pushing, pulling), Git will launch a browser window for you to authenticate. After successful authentication, your credentials are saved in the macOS keychain, a secure system for storing sensitive information. 
