@@ -96,7 +96,7 @@ git pull
 
 ## Branching
 
-See the [contributing guide](../How-To/contributing.md) for a guide on branching.
+See the [contributing guide](../How-To/contributing-guide.md) for a guide on branching.
 
 To switch to an existing branch:
 
