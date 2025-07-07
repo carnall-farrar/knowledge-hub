@@ -109,7 +109,7 @@ except ZeroDivisionError:
 
 This logs the full traceback automatically with no manual formatting needed.
 
-## Logging to a File
+## Logging to a File
 
 You can save logs to an output file using the `sink` parameter in `logger.add()`:
 
