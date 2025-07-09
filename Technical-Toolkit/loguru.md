@@ -12,6 +12,12 @@ Here’s why `print()` falls short:
 
 That’s where **[Loguru](https://github.com/Delgan/loguru)** comes in—a modern, user-friendly logging library that solves these problems with minimal setup.
 
+## Installation
+
+```bash
+uv pip install loguru
+```
+
 ## Basic Usage
 Loguru replaces traditional logging with a simple, intuitive interface.
 If you had a python script called `app.py` which looked like this:
