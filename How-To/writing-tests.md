@@ -203,7 +203,7 @@ pytest --cov=my_package --cov-report=html
 * `--cov`: This specifies the directory for which code testing coverage should evaluated. It tells pytest "look here to see if the tests written cover all the functionality in this directory"
 * `--cov-report`: Sets the output format of the coverage report.
 
-If you're using a repository setup with [cookiecutter-cf](https://github.com/carnall-farrar/cookiecutter-cf), these options are already configured in the `pyproject.toml`.
+> NOTE: If you're using a repository setup with [cookiecutter-cf](https://github.com/carnall-farrar/cookiecutter-cf), these options are already configured in the `pyproject.toml`.
 
 Then open the generated `htmlcov/index.html` in your browser to see the report.
 The report tells you how much of your code is being tested. As good practice, you want your coverage to be at least 85%.
