@@ -125,7 +125,8 @@
 * **CMI**, Chartered Management Institute
 * **HRG**, Health Resource Group
 * **OBD**, Occupied Bed Day
-* **IBD**, Irritable bowel disease
+* **IBD**, Inflammatory bowel disease
+* **IBS**, Irritable bowel syndrome
 * **HPM**, Health partnership managers. People in ABBVIE who are door-to-door selling products. Used the ABBVIE data to inform who to go bug
 * **ACO**, Accountable care organisation
 * **CCG**, Clinical Commissioning Group
@@ -146,6 +147,7 @@
 * **QIPP**, Quality, Innovation, Productivity and Prevention​
 * **CAMHS**, Child and Adolescent Mental Health services
 * **VCR**, Vaccination Coverage Rate
+* **SpR**, Specialty Registrar
 
 ## External Resources
 - [The King's Fund - Health and Care Defined Jargon Buster](https://www.kingsfund.org.uk/insight-and-analysis/articles/health-and-care-defined-jargon-buster)
