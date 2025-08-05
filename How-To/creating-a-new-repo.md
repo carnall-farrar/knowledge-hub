@@ -57,6 +57,8 @@ git commit -m ":rocket: Repo launch with Cookiecutter-CF"
 git push -u origin main
 ```
 
+These commands push the created local repository to github, creating a [`main` branch](./contributing-guide.md/#main).
+
 ### 3b. Connect the local repository as a new branch on an existing GitHub repository
 
 ```bash
@@ -71,6 +73,37 @@ git push -u origin revamp
 
 ## 4. Create a `dev` branch
 
+As explained in [the GitHub contributing guide](./contributing-guide.md/#dev), the `dev` branch serves as the staging area for `main`. All working branches should be rooted from the `dev` branch.
+
+To create the dev branch:
+
+```bash
+# Make sure to be on the latest commit within the main branch
+git checkout main
+git pull
+
+# Create and push the dev branch
+git checkout -b dev
+git push -u origin dev
+```
+
 ## 5. Setup branch protection rules
+
+Branch protection rules are guardrails used to enforce certain workflows within a repository. Some examples include requiring an approving review before a PR is merged to a branch, or protecting a branch from being deleted. 
+
+To create a branch protection, rule:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under your repository name, click the `Settings` tab.
+![GH Navigation Bar - Settings Tab](../static/settings-nav.png)
+3. In the "Code and automation" section of the sidebar, click `Branches`.
+4. Next to "Branch protection rules", click `Add branch ruleset`.
+![Branch protection rules page](../static/protection_rules_page.png)
+5. Under "Branch name pattern", enter
+```
+
+```
+
+6. Click `Create`.
 
 ## 6. Enable gh-pages

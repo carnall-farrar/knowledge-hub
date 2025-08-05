@@ -33,20 +33,7 @@ Once granted:
 
 This will give you temporary admin rights, however you can run this policy has many times as you need.
 
-
-## 2: Install VSCode
-
-At CF, our IDE (Integrated Development Environment) of choice is [VSCODE](https://code.visualstudio.com/).
-You can find the download link [here](https://code.visualstudio.com/download#)
-
-Some extensions we're obsessed with are:
-- Data Wrangler
-- Jupyter
-- Rainbow CSV
-- Python Debugger
-
-
-## 3: Install Brew
+## 2: Install Brew
 
 Homebrew is a package manager for MacOS and Linux. It installs the stuff you need that Apple (or your Linux system) didn’t.
 
@@ -56,14 +43,14 @@ You can install homebrew by downloading the `.pkg` file from [here](https://brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## 4: Install Conda
+## 3: Install Conda
 
 Currently, our python environment manager of choice is `conda`. We use miniconda, a miniature installation of the `Anaconda` distribution that includes only conda, Python, the packages they both depend on, and a small number of other useful packages.
 
 To download miniconda, visit [this link](https://www.anaconda.com/download/success) and download the miniconda installer for Apple Silicon and run it.
 
 
-## 5: Install UV
+## 4: Install UV
 
 UV is an extremely fast Python package manager and installer, written in Rust.
 Here, we use Conda as our package manager and UV as the package installer (replacing `pip install` or `conda install` where possible). We'll be using UV to install packages into project-specific conda environments.
@@ -80,7 +67,7 @@ or through Homebrew
 brew install uv
 ```
 
-## 6: Git
+## 5: Git
 
 To install git, run
 
@@ -104,5 +91,34 @@ git config --global init.defaultBranch main
 
 When you interact with a Git repository for the first time (e.g., cloning, pushing, pulling), Git will launch a browser window for you to authenticate. After successful authentication, your credentials are saved in the macOS keychain, a secure system for storing sensitive information. 
 
+## 6: Install VSCode
+
+At CF, our IDE (Integrated Development Environment) of choice is [VSCODE](https://code.visualstudio.com/).
+You can find the download link [here](https://code.visualstudio.com/download#)
+
+Some extensions we're obsessed with are:
+- Data Wrangler
+- Rainbow CSV
+- Jupyter
+- Python
+- Python Debugger
+- Pylance
+
+#### Configure VSCode
+
+To configure VSCode to work well with conda, do the following:
+
+1. Navigate to VSCode's settings either through the MacOS navigation bar or by hitting the `⌘,` shortcut
+
+2. Search the settings page for `Python: Default Interpreter Path`. This allows you to set the default python to use for your workspace. Here you'll want to point to the python in a conda environment of your choice. 
+
+To find the python path of a select environment, open up a terminal, activate said select environment, then enter 
+
+```bash
+which python
+```
+Copy the output of that command into the input field for `Python: Default Interpreter Path` in your VSCode settings.
+
+3. Search the settings page for `Python: Venv Path`. This sets the folder in which to search for virtual environments. To point this to your miniconda directory, copy the path from step 2 and delete everything after `envs` in that path. That's the root directory where all your conda environments are stored.
 
 ## 7: You're all set up!
