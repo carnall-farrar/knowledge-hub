@@ -122,3 +122,35 @@ Cataract surgery base tariff = £1,200
 Provider MFF = 1.15
 ICB pays: £1,380 (instead of £1,200)
 ```
+
+### 3. Provider Finance Return (PFR) & ICB Finance Return (IFR)
+
+#### PFR:
+The PFR is a monthly and annual financial return submitted by NHS provider organisations (mainly NHS Trusts and Foundation Trusts) to NHS England.
+
+It provides a detailed picture of:
+* Expenditure (by service line)
+* Income (commissioner income, other income)
+* Operating position (surplus/deficit)
+* Workforce and agency spend
+* Capital expenditure
+* Cash balances and financial risk
+
+> Think of it as the "full profit and loss + cash flow + balance sheet" view of the provider’s finances.
+
+#### IFR:
+The IFR is the ICB-side equivalent of the PFR. It's submitted by ICBs to NHS England to report:
+* Actual expenditure by service line (e.g. acute, community, prescribing)
+* Forecasts and variances against plan
+* Use of system funds (e.g. transformation funding, COVID allocations)
+* Cash and balance positions
+* Commitments and risks
+
+> Think of the IFR as the ICB’s financial ledger – showing how public money is being spent across providers and services.
+
+#### Comparing the two:
+In theory, what the ICB reports as expenditure (IFR) should match what the provider reports as income (PFR). But in practice, timing, contract types, and technical adjustments (e.g. year-end accruals, bad debt, pass-through payments) can cause differences. More explicitly, IFRs and PFRs can be at odds due to:
+
+* Timing mismatches: IFRs are more cash-flow/contract focused, PFRs include more accrual accounting.
+* Coverage: Not all IFR spend appears in a PFR (e.g., IFR may include private or non-NHS providers).
+* Technical adjustments: Provider income in PFR may include things not directly from ICBs (e.g., education funding, research grants).
