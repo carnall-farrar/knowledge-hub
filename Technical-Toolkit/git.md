@@ -197,3 +197,10 @@ git cherry-pick beginning_commit^..ending_commit
 ```bash
 git cherry-pick beginning_commit..ending_commit
 ```
+
+#### Steps to delete untracked Git files
+* Run `git clean -n` to see a dry run.
+* Run `git clean -f` to force untracked file deletion.
+* Use `git clean -f -d` to remove untracked directories.
+* Use `git clean -f -x` to remove untracked `. gitignore` files.
+* Add the `-i` switch to do an interactive git clean.
