@@ -232,7 +232,7 @@ echo "Deploying to {{ region }}"
 
 - Write modular templates with `{% include %}` or `{% macro %}` for reuse.
 
-## ✅ Summary
+## Summary
 
 | Feature                  | Benefits                                        |
 |--------------------------|-------------------------------------------------|
